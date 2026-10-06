@@ -7,8 +7,8 @@ Markdown
 - **Decision Deliverables:** identify the optimal asset classification ('room type'), sub-neighborhood for capital development, and benchmarked realistic annualized cash flow expectations.
 
 ## The Revenue Proxy Engine & Data Filtering Methodology
-- **Annual Revenue Formulation:** Gross annual revenue per listing is estimated via the proxy equation:
-$$\text{Estimated Annual Revenue} = \text{Price} \times (365 - \text{Availability\_365}) $$
+- - **Annual Revenue Formulation:** Gross annual revenue per listing is estimated via the following proxy equation:
+  > **Estimated Annual Revenue** = Price × (365 - availability_365)
 - **Boundary Anomaly Purge:**
 - **'availability_365 = 0':** This purges delisted properties, regulatory locks, and dormant accounts that artificially drag down our averages.
 - **'availability_365 = 365':** Purged to remove abandoned calendar properties, which demonstrate zero consumer demand.
